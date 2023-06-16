@@ -1,5 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,400;0,700;1,400&display=swap');
+.logo{
+    width: 12vw;
+}
 
-:root {
-    --font: 'Noto Serif Display', serif;
+.logo:hover {
+    cursor: pointer;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.navegation{
+    display: flex;
+}
+
+.menu {
+    display: flex;
+}
+
+.navegation_options {
+    padding: 20px;
+}
+
+a:hover {
+    color: rgb(164, 17, 17);
+}
+
+.navegation_greet {
+    padding: 8px 20px;
+    margin: auto 20px;
+    border-radius: 5px;
+}
+
+.navegation_greet:hover{
+    cursor: pointer;
 }
