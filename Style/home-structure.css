@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
 
 :root {
+    --black: #181818;
+    --deep-wine: #260000;
+    --dark-wine: #26060F;
+    --wine: #400A18;
+    --gray: #8C8C8C;
+
+    --c1: #591C1C;
+
     --font:  'Lora', serif;
 }
 
@@ -8,8 +16,14 @@ body{
     font-family: var(--font);
 }
 
+html {
+    font-size: 1.25vw;
+    background: linear-gradient(180deg, black 0%, var(--deep-wine) 40%, var(--wine) 100%);
+    background-repeat: no-repeat;
+}
+
 .container {
-    margin: 0 30px;
+    margin: 0 50px;
     display: flex;
     align-items: center;
 }
