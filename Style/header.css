@@ -1,0 +1,35 @@
+.logo {
+    width: 12vw;
+  }
+  
+  .logo:hover {
+    cursor: pointer;
+  }
+  
+  .header {
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .navegation,
+  .navegation__menu {
+    display: flex;
+  }
+  
+  .navegation__menu__options {
+    padding: 20px;
+  }
+  
+  .navegation__greet {
+    padding: 8px 20px;
+    margin: auto 20px;
+    border-radius: 5px;
+    background-color: var(--wine);
+    color: white;
+    font-weight: bold;
+    font-size: 1.25vw;
+  }
+  
+  .navegation__greet:hover {
+    cursor: pointer;
+  }
