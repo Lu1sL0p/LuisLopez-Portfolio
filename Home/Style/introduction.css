@@ -1,0 +1,13 @@
+.introduction {
+    width: 100%;
+    height: calc(100vh - (12vh + 15px));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+
+.introduction__logo {
+    width: 500px;
+    height: 500px;
+}
