@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Noto+Serif+Display:wght@400;700&display=swap');
 
 :root {
   --black: #131313;
@@ -6,15 +6,15 @@
   --dark-wine: #26060f;
   --wine: #400a18;
   --gray: #8c8c8c;
+  --white: #ecf0f1;
+  --light-white: #ffffffb0;
 
   --c1: #591c1c;
 
   --font: "Lora", serif;
+  --display: 'Noto Serif Display', serif;
 }
 
-body {
-  font-family: var(--font);
-}
 
 html {
   font-size: 1.25vw;
@@ -23,10 +23,14 @@ html {
     var(--black) 0%,
     var(--deep-wine) 40%,
     var(--wine) 100%
-  );
-  background-repeat: no-repeat;
-}
-
+    );
+    background-repeat: no-repeat;
+  }
+  
+  body {
+    font-family: var(--font);
+  }
+  
 .container {
   margin: 0 50px;
   display: flex;
@@ -34,7 +38,7 @@ html {
 }
 
 a {
-  color: white;
+  color: var(--white);
 }
 
 a:hover {
@@ -43,7 +47,7 @@ a:hover {
 
 .title2 {
   margin: 30px 0;
-  color: white;
+  color: var(--white);
   font-size: 2vw;
   font-weight: bold;
   text-align: center;

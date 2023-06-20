@@ -25,7 +25,7 @@
     margin: auto 20px;
     border-radius: 5px;
     background-color: var(--wine);
-    color: white;
+    color: var(--white);
     font-weight: bold;
     font-size: 1.25vw;
   }

@@ -22,22 +22,38 @@
         </a>
         <nav class="navegation">
           <ul class="navegation__menu">
-            <li class="navegation__menu__options"><a  href="#">Sobre mi</a></li>
-            <li class="navegation__menu__options"><a  href="#">Skills</a></li>
-            <li class="navegation__menu__options"><a  href="#">Formación</a></li>
-            <li class="navegation__menu__options"><a  href="#">Proyectos</a></li>
+            <li class="navegation__menu__options"><a  href="#presentationSection">Sobre mi</a></li>
+            <li class="navegation__menu__options"><a  href="#skillsSection">Skills</a></li>
+            <li class="navegation__menu__options"><a  href="#formationSection">Formación</a></li>
+            <li class="navegation__menu__options"><a  href="#projectsSection">Proyectos</a></li>
             <li class="navegation__menu__options"><a  href="#">CV</a></li>
           </ul>
           <button class="navegation__greet" type="submit">Salúdame</button>
         </nav>
     </header>
     <main>
-      <section class="container">
-        <div class="introduction">
-         <img class="introduction__logo" src="./Images/Logo.svg" alt="">
-        </div>
+      <section class=" introduction container">
+         <img class="introduction__logo" src="./Images/Logo.svg" alt="Logo de marca personal">
+          <div class="introduction__animation">
+            <div class="introduction__animation__container">
+              <p class="introduction__animation__container__text">
+                !Hola
+              </p>
+              <ul class="introduction__animation__container__list">
+                <li class="introduction__animation__container__list__item">mundo!</li>
+                <li class="introduction__animation__container__list__item">chicos!</li>
+                <li class="introduction__animation__container__list__item">chicas!</li>
+                <li class="introduction__animation__container__list__item">a todos!</li>
+              </ul>
+            </div>
+          </div>
+          <div class="introduction__scroll">
+            <p class="introduction__scroll__text">Let's go</p>
+            <img class="introduction__scroll__image"><a href="#presentationSection"></a></img>
+          </div>
+
       </section>
-      <section class="presentation container">
+      <section id="presentationSection" class="presentation container">
           <div class="presentation__text">
             <p class="presentation__text__welcome">!Hey!, ¿Qué tal?</p>
             <h1 class="presentation__text__statement">Soy Luis, fiel creyente del impulso que genera la tecnología para 
@@ -71,7 +87,7 @@
           </div>
           <div class="presentation__photo"></div>
       </section>
-      <section class="aboutme no_parallax">
+      <section id="aboutmeSection" class="aboutme no_parallax">
         <h2 class="title2">Sobre mi</h2>
         <p class="text">Soy un apasionado de la industria TI, enamorado del desarrollo y diseño web.
           Interesado no solamente en los objetivos a desarrollar sino en la buena 
@@ -91,10 +107,10 @@
          </p>
          <p class="text--active">Si algo existe me encargaré de explotar todo su potencial.</p>
       </section>
-      <section class="projects">
-        
+      <section id="projectsSection" class="projects">
+
       </section>
-      <section class="skillsHobbies">
+      <section id="skillsSection" class="skillsHobbies">
         <h2 class="title2">Skills</h2>
         <div class="skills container">
           <div class="skillsHobbies__item">
@@ -120,7 +136,7 @@
             Rondalla (guitarra + declamar)</div>
         </div>
       </section>
-      <section class="academic">
+      <section id="formationSection" class="academic">
         <h2 class="title2">Formación Académica</h2>
         <div class="academic container">
           <div class="academic__formation">
