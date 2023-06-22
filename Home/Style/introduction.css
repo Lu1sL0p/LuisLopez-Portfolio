@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   transition: all 1s ease-in-out;
+  margin-bottom: 30px;
 }
 
 .introduction__logo {
@@ -30,11 +31,11 @@
 .introduction__scroll {
   position: relative;
   top: 20vw;
-  right: 16vw;
+  right: 16.4vw;
 }
 
 .introduction__scroll__text{
-  color: var(--light-white);
+  color: var(--gray);
   transform: translateX(-12px) translateY(-8px);
 }
 

@@ -1,26 +1,32 @@
 .skillsHobbies {
-  margin: 60px 30px;
+  border: 2px solid white;
+  height: calc(100vh);
 }
 
 .skills,
 .hobbies {
   justify-content: space-around;
-  margin-bottom: 90px;
+  margin-bottom: 70px;
 }
 
 .skillsHobbies__item {
   height: 180px;
   width: 180px;
-  background-color: var(--wine);
+  background-color: var(--gray-box);
   padding: 16px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  border-radius: 5px;
+  border-radius: 10%;
+  box-shadow: 0px 15px 19px 9px rgba(115,2,2,0.34);
+  transition: all 0.1s ease-in-out;
 }
 
+.skillsHobbies__item:hover {
+  box-shadow: 0px 20px 19px 9px var(--wine);
+}
 .skillsHobbies__item_img {
   width: 4vw;
 }
