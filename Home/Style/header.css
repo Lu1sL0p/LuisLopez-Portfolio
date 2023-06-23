@@ -28,9 +28,9 @@
   color: var(--white);
   background-color: #692222;
   border: solid black;
-  border-radius: 10px;
-  height: 60px;
-  width: 200px;
+  border-radius: 20px;
+  height: 6vh;
+  width: 10vw;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   font: var(--font);
@@ -38,4 +38,5 @@
 
 .greet:hover {
   background-color: #521a1a;
+  color: #f1ecece2;
 }

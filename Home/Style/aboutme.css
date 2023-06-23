@@ -7,7 +7,12 @@
     align-items: flex-start;
     font-size: 1.5vw;
     font-style: italic;
-    line-height: 35px;
-    padding: 100px 550px 0px 50px;
+    line-height: 50px;
+    padding: 100px 900px 0px 50px;
   }
   
+  .aboutmeSection__data{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+  }
