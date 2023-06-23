@@ -1,0 +1,74 @@
+.projects {
+  background-color: var(--black);
+  width: 100%;
+  height: calc(100vh - 30px);
+  padding-top: 30px;
+}
+
+.projectsSection__container {
+  height: 60vh;
+  margin: 30px 50px;
+}
+
+.projectsSection__image {
+  width: 60vw;
+}
+
+.encriptador {
+  height: 60vh;
+  background: url(../Images/Projects/Encriptador.png) no-repeat center/ cover;
+  transition: all 0.2s ease-in-out;
+}
+
+.encriptador:hover {
+  animation-play-state: initial;
+  background: url(../Images/Projects/ezgif-4-4ff48c76d2.gif) no-repeat center / cover;
+}
+
+.projectsSection__text__encriptador {
+  margin-left: 8px;
+  background-color: #e6f4f1;
+  width: 40vw;
+  height: 99.89%;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.projectsSection__text__buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 29.5vh;
+}
+
+.projectsSection__text__type__encriptador {
+  color: #333333;
+}
+
+.projectsSection__text__title__encriptador {
+  color: #2f7745;
+  margin: 15px 0 30px 0;
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: start;
+}
+
+.projectsSection__text__description {
+  color: #333333;
+}
+
+.projectsSection__text__buttons__encriptador {
+  background-color: #333333;
+  color: #fffcfc;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  font-weight: bold;
+  border-radius: 29px;
+  transition: 0.25s ease-in-out;
+}
+
+.projectsSection__text__buttons__encriptador:hover {
+  background-color: #5c5c5c;
+}

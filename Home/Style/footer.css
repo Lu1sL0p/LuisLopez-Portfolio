@@ -1,0 +1,37 @@
+footer {
+  background: var(--black);
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.footer__lyrcs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer__logo {
+  width: 12vw;
+  margin: 30px 0 20px;
+}
+
+.footer__text__social {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer__text__social__icon {
+  margin: 40px 10px;
+  width: 25px;
+  height: 25px;
+}

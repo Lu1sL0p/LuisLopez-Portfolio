@@ -1,0 +1,13 @@
+.aboutme {
+    height: calc(100vh - 30px);
+    background-color: var(--gray-box);
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.5vw;
+    font-style: italic;
+    line-height: 35px;
+    padding: 100px 550px 0px 50px;
+  }
+  

@@ -5,11 +5,9 @@
   --wine: #400a18;
   --dark-wine: #1a040a;
   --gray: #aeabb4;
-  --gray-box: #272727;
+  --gray-box: #232427;
   --white: #ecf0f1;
 
-  --c1: #591c1c;
-  
   --font: "Lora", serif;
   --display: "Noto Serif Display", serif;
 }
@@ -20,7 +18,6 @@ html {
 
 body {
   font-family: var(--font);
-  background-color: var(--black);
 }
 
 .container {
@@ -31,6 +28,7 @@ body {
 
 a {
   color: var(--white);
+  transition: all 0.2s ease-in-out;
 }
 
 a:hover {
@@ -57,4 +55,10 @@ a:hover {
   width: 100%;
   height: 100%;
   z-index: -1;
+}
+
+.boton {
+  width: 12vw;
+  height: 5vh;
+  cursor: pointer;
 }

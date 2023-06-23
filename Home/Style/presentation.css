@@ -46,21 +46,15 @@
   transform: translateY(10px);
 }
 
+.cv{
+  width: 45px;
+  height: 45px;
+  transform: translateY(-5px) translateX(-6px);
+}
+
 .presentation__photo {
   width: 400px;
   height: 500px;
   background: url(../Images/Photo.png) no-repeat 0px 10px / cover;
   border-radius: 40%;
-}
-
-.aboutme {
-  height: calc(100vh - 30px);
-  padding-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-size: 1.5vw;
-  font-style: italic;
-  line-height: 35px;
-  padding: 30px 550px 0px 50px;
 }
