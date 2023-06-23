@@ -1,3 +1,8 @@
+.header {
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
 .header__logo {
   width: 12vw;
 }
@@ -6,10 +11,6 @@
   cursor: pointer;
 }
 
-.header {
-  justify-content: space-between;
-  padding-top: 15px;
-}
 
 .navegation,
 .navegation__menu {
@@ -17,6 +18,10 @@
 }
 
 .navegation__menu__options {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .greet {
@@ -28,7 +33,6 @@
   width: 200px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  transform: translateY(-15px);
   font: var(--font);
 }
 
