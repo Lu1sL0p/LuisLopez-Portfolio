@@ -1,9 +1,12 @@
 .introduction {
-  height: calc(100vh - (12vh + 15px));
+  height: 89vh;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: all 1s ease-in-out;
+  position: relative;
+  bottom: 6vh;
+  z-index: -1;
 }
 
 .introduction__logo {
@@ -24,45 +27,6 @@
   }
   50%{
     scale: 1;
-  }
-}
-
-.introduction__scroll {
-  position: relative;
-  top: 38vh;
-  right: 16.4vw;
-}
-
-.introduction__scroll__text{
-  color: var(--gray);
-  transform: translateX(-25px) translateY(-8px);
-}
-
-.introduction__scroll__image {
-  transform: rotate(90deg);
-  position: relative;
-  width: 40px;
-  height: 40px;
-  transition: all 0.25s ease-in-out;
-}
-
-.introduction__scroll__image:hover {
-  scale: 1.25;
-  border-radius: 100%;
-  background-color: #570f22d6;
-}
-
-
-@keyframes scroll {
-  0%{
-    scale: 0.9;
-  }
-  50%{
-    scale: 1.05;
-
-  }
-  100%{
-    scale: 0.9;
   }
 }
 

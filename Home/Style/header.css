@@ -1,6 +1,7 @@
 .header {
   justify-content: space-between;
   padding-top: 15px;
+  z-index: 1;
 }
 
 .header__logo {
@@ -39,4 +40,45 @@
 .greet:hover {
   background-color: #521a1a;
   color: #f1ecece2;
+}
+
+
+.introduction__scroll {
+  position: absolute;
+  left: 50%;
+  top: 87%;
+
+}
+
+.introduction__scroll__text{
+  color: var(--gray);
+  transform: translateX(-27px) translateY(-8px);
+}
+
+.introduction__scroll__image {
+  transform: rotate(90deg);
+  position: relative;
+  width: 40px;
+  height: 40px;
+  transition: all 0.25s ease-in-out;
+}
+
+.introduction__scroll__image:hover {
+  scale: 1.3;
+  border-radius: 80%;
+  background-color: #611227d6;
+}
+
+
+@keyframes scroll {
+  0%{
+    scale: 0.9;
+  }
+  50%{
+    scale: 1.05;
+
+  }
+  100%{
+    scale: 0.9;
+  }
 }
