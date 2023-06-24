@@ -45,7 +45,7 @@ setInterval(() => {
     nombre.style.boxShadow = "0px 0px 10px 2px red inset";
     countOpacity = 1;
   } else {
-    nombre.style.boxShadow = " 0px 0px 10px 1px #0b0c109c inset";
+    nombre.style.boxShadow = "0px 0px 10px 1px #0b0c109c inset";
   }
 
   if (empty.test(countSubject) || countSubject.length > 50) {

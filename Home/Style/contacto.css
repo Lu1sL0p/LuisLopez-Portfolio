@@ -57,6 +57,10 @@
   transition: all 0.2s ease-in-out;
 }
 
+.contactSection__form__box--mail {
+  box-shadow: 0px 0px 10px 1px #0b0c109c inset;
+}
+
 .contactSection__form__area {
   box-sizing: border-box;
   padding: 10px;
