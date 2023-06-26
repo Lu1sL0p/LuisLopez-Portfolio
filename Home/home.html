@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./Style/footer.css">
   </head>
   <body>
-    <img class="back" src="./Images/Background.png" alt="">
+    <div class="bases__background"></div>
     <header class="header container">
         <a href="#">
           <img
@@ -35,10 +35,7 @@
             <li class="navegation__menu__options "><a  href="#contactSection"><input class="greet" type="button" value="Salúdame"></a></li>
           </ul>
         </nav>
-        <div class="introduction__scroll">
-          <p class="introduction__scroll__text">Let's go</p>
-          <a  href="#aboutmeSection"><img class="introduction__scroll__image" src="./Images/Arrow.svg"></a>
-        </div>
+          <a class="introduction__scroll" href="#presentationSection"><img class="introduction__scroll__image" src="./Images/Arrow.svg"></a>
     </header>
     <main>
       <section class=" introduction container">
@@ -58,7 +55,7 @@
           </div>
       </section>
       <section id="presentationSection" class="presentation ">
-        <div class="container">
+        <div class="container presentationSection--responsive">
           <div class="presentation__text">
             <p class="presentation__text__welcome">!Hey!, ¿Qué tal?</p>
             <h1 class="presentation__text__statement">Soy Luis, fiel creyente del impulso que genera la tecnología para 
@@ -91,7 +88,7 @@
               </a></li>
               
               <li class="presentation__text__social__icon">
-                <a href="./Documents/Certificado - Alura.pdf" target="_blank">
+                <a href="./Documents/CV.pdf" target="_blank">
                   <svg class="cv" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.000000 512.000000" >
                     <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
                     fill="currentColor">
@@ -131,18 +128,20 @@
           <br> <br>
           Una de las frases que me define:
          </p>
-         <p class="text--active">Si algo existe, me encargaré de explotar su máximo potencial.</p>
+         <p class="text text--active">Si algo existe, me encargaré de explotar su máximo potencial.</p>
          <br>
-         <div class="aboutmeSection__data">
-         <img class="aboutmeSection__data__mexico" src="./Images/Icons/Mexico.svg" alt="Bandera mexicana">
-         <p>Nacionalidad: mexicana</p>
-          <p>Edad: 21</p>
-        </div>
+         <div class="aboutme__bottom">
+          <div class="aboutmeSection__data">
+            <img class="aboutmeSection__data__mexico" src="./Images/Icons/Mexico.svg" alt="Bandera mexicana">
+            <p class="text">Nacionalidad: mexicana</p>
+             <p class="text">Edad: 21</p>
+          </div>
         <img id="screen" class="aboutmeSection__gif shake-horizontal" src="./Images/Icons/MovilDevelop.png" alt="">
+        </div>
       </section>
       <section id="skillsSection" class="skillsHobbies">
         <h2 class="title2">Skills</h2>
-        <div class="skills container">
+        <div class="skills container text">
           <div class="skillsHobbies__item">
             <img class="skillsHobbies__item_img" src="./Images/Icons/Html.svg" alt="Ícono de html">
             Html 5</div>
@@ -154,7 +153,7 @@
             JavaScript</div>
         </div>
         <h2 class="title2">Hobbies</h2>
-        <div class="hobbies container">
+        <div class="hobbies container text">
           <div class="skillsHobbies__item">
             <img class="skillsHobbies__item_img" src="./Images/Icons/Book.svg" alt="">
             Leer</div>
@@ -163,7 +162,7 @@
             Gimnasio</div>
           <div class="skillsHobbies__item">
             <img class="skillsHobbies__item_img" src="./Images/Icons/Guitar.svg" alt="Ícono de guitarra">
-            Rondalla (guitarra + declamar)</div>
+            Rondalla</div>
         </div>
       </section>
       <section id="formationSection" class="academic">
@@ -171,19 +170,28 @@
           <div class="academic__container">
             <a href="https://app.aluracursos.com/degree/certificate/02b45d2b-ca71-45b2-989c-c274e4451bbe" target="_blank">
               <div class="academic__formation">
-                <img class="academic__formation__image" src="./Images/Icons/Alura.svg" alt="">
+                <img class="academic__formation__image" src="./Images/Icons/Alura.svg" alt="Icono de Alura">
                 <div class="academic__formation__text">
-                  <h3 class="text--active">Desarrollo Front end</h3>
-                  <p class="text">En curso - Oracle & Alura</p>
+                  <h3 class="text--active academic__formation__text__size">Desarollo Front End</h3>
+                  <p class="academic__formation__text__size">En curso - Oracle & Alura</p>
                 </div>
               </div>
             </a>
               <a href="https://coursera.org/share/85ce2d3027741fb5244e21fd8b32d2ab" target="_blank">
                 <div class="academic__formation">
-                  <img class="academic__formation__image" src="./Images/Icons/Google.svg" alt="">
+                  <img class="academic__formation__image" src="./Images/Icons/Google.svg" alt="Icono de Google">
                   <div class="academic__formation__text">
-                    <h3 class="text--active">Diseño de Experiencia de Usuario</h3>
-                    <p class="text">En curso - Google</p>
+                    <h3 class="text--active academic__formation__text__size">Diseño de Experiencia de Usuario</h3>
+                    <p class="academic__formation__text__size">En curso - Google</p>
+                  </div>
+                </div>
+              </a>
+              <a href="https://www.credly.com/badges/1b6d9e80-886e-477a-a794-6e2aa9cbc79b/linked_in_profile" target="_blank">
+                <div class="academic__formation">
+                  <img class="academic__formation__image academic__formation__image--azure" src="./Images/Icons/Az900.png" alt="Icono del Az900">
+                  <div class="academic__formation__text">
+                    <h3 class="text--active academic__formation__text__size">Az: 900 - Azure Fundamentals</h3>
+                    <p class="academic__formation__text__size">Microsoft</p>
                   </div>
                 </div>
               </a>
@@ -198,7 +206,9 @@
           <div class="projectsSection__text__encriptador">
               <p class="projectsSection__text__type__encriptador">Front End</p>
               <h3 class="projectsSection__text__title__encriptador">Encriptador de texto</h3>
-              <p class="projectsSection__text__description">Oracle Challenge</p>
+              <p class="projectsSection__text__description">Oracle Challenge el cual consistió en desarrollar un código de encriptación 
+                que cambiará las vocales de cualquier frase o palabra que se igresara, el encriptador es capaz de encriptar y desencriptar.
+              </p>
               <div class="projectsSection__text__buttons">
                 <a  href="https://lu1sl0p.github.io/Challenge-Encriptador/" target="_blank">
                   <button class="projectsSection__text__buttons__encriptador boton">Ver demo</button>
@@ -215,7 +225,7 @@
           <form class="contactSection__form container">
             <h2 class="contactSection__form__title title2">Contacto</h2>
             <p class="contactSection__form__ask">¿Quieres contactarme?</p>
-            <p class="contactSection__form__msg text">Mándame un mensaje y me pondre en contacto con usted lo antes posible</p>
+            <p class="contactSection__form__msg">Mándame un mensaje y me pondre en contacto con usted lo antes posible</p>
             <input class="contactSection__form__box" placeholder="Nombre(s)" type="text" name="" id="form__name">
             <input class="contactSection__form__box contactSection__form__box--mail" placeholder="E-mail" type="email" name="" id="form__e-mail">
             <input class="contactSection__form__box" placeholder="Asunto" type="text" name="" id="form__subject">
@@ -230,7 +240,7 @@
         <a href="#">
           <img class="footer__logo" src="./Images/Logo-head.svg" alt="">
         </a>
-        <nav class="navegation">
+        <nav class="navegation navegation__footer">
           <ul class="navegation__menu">
             <li class="navegation__menu__options"><a  href="#presentationSection">Sobre mi</a></li>
             <li class="navegation__menu__options"><a  href="#skillsSection">Skills</a></li>

@@ -16,6 +16,7 @@
 .navegation,
 .navegation__menu {
   display: flex;
+  font-size: 1rem;
 }
 
 .navegation__menu__options {
@@ -46,13 +47,8 @@
 .introduction__scroll {
   position: absolute;
   left: 50%;
-  top: 87%;
-
-}
-
-.introduction__scroll__text{
-  color: var(--gray);
-  transform: translateX(-27px) translateY(-8px);
+  top: 91%;
+  scale: 1.8;
 }
 
 .introduction__scroll__image {
@@ -80,5 +76,53 @@
   }
   100%{
     scale: 0.9;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .navegation,
+  .navegation__menu {
+    font-size: 1.3rem;
+  } 
+  .header__logo {
+    width: 12rem;
+  }
+   
+ }
+
+ @media screen and (max-width: 1300px) {
+  .navegation,
+  .navegation__menu {
+    font-size: 1.5rem;
+  } 
+  .header__logo {
+    width: 15rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+.header {
+  padding-top: 10px;
+}
+.header__logo{
+  width: 17rem;
+}
+.introduction__scroll__image {
+  scale: 0.8;
+}
+.introduction__scroll__image:hover{
+  scale: 1;
+}
+.introduction__scroll {
+  top: 63%;
+}
+}
+@media screen and (max-width: 767px) {
+  .introduction__scroll {
+    top: 85%;
+    left: 47%;
+  }
+  .header__logo {
+    width: 35rem;
   }
 }

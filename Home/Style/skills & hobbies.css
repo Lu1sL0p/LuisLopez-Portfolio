@@ -15,8 +15,8 @@
 }
 
 .skillsHobbies__item {
-  height: 26vh;
-  width: 13vw;
+  height: 10rem;
+  width: 10rem;
   background-color: var(--gray-box);
   padding: 16px;
   text-align: center;
@@ -34,4 +34,13 @@
 }
 .skillsHobbies__item_img {
   width: 4vw;
+}
+
+@media screen and (max-width: 2000px) {
+  .skillsHobbies {
+    height: 63vh;
+  }
+  .skills,.hobbies {
+    margin: 50px 0;
+  }
 }

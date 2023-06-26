@@ -10,22 +10,22 @@
 }
 
 .introduction__logo {
-  width: 35vw;
-  height: 35vw;
+  width: 27rem;
+  height: 27rem;
   animation: logo 5s 1 3s;
 }
 
 @keyframes logo {
-  3%{
+  3% {
     scale: 1.1;
   }
-  6%{
+  6% {
     scale: 1;
   }
   8% {
     scale: 1.1;
   }
-  50%{
+  50% {
     scale: 1;
   }
 }
@@ -35,19 +35,18 @@
   transform: scale(1.8);
   overflow: hidden;
   position: absolute;
-  left: 25vw;
+  left: 18rem;
   top: 50%;
 
   font-family: var(--display);
-  font-size: 35px;
+  font-size: 2.5rem;
   color: var(--white);
 }
-
 
 .introduction__animation__container {
   font-weight: 600;
   overflow: hidden;
-  height: 40px;
+  height: 3rem;
   padding: 0 40px;
 }
 
@@ -68,8 +67,8 @@
   top: 0;
 
   color: var(--gray);
-  font-size: 42px;
-  line-height: 40px;
+  font-size: 2.5rem;
+  line-height: 2.75rem;
 
   -webkit-animation-name: opacity;
   -webkit-animation-duration: 2s;
@@ -87,7 +86,7 @@
 
 .introduction__animation__container__list {
   margin-top: 0;
-  padding-left: 33vw;
+  padding-left: 28rem;
   text-align: left;
   list-style: none;
 
@@ -100,7 +99,7 @@
 }
 
 .introduction__animation__container__list__item {
-  line-height: 40px;
+  line-height: 2.75rem;
   margin: 0;
 }
 
@@ -254,4 +253,31 @@
   95.96% {
     transform: translate3d(0, -25%, 0);
   }
+}
+
+@media screen and (max-width: 2000px) {
+  .introduction__animation {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .introduction {
+    height: 62vh;
+  }
+  .introduction__logo {
+    width: 40rem;
+    height: 40rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .introduction {
+    height: 86vh;
+  }
+  .introduction__logo {
+    width: 60rem;
+    height: 60rem;
+  }
+  
 }
