@@ -100,17 +100,20 @@
     font-size: 1.5vw;
     padding: 30px 50px 0px;
   }
+  .aboutmeSection__data {
+    width: 15vw;
+  }
 }
 
 
-@media screen and (min-width: 1023) {
+@media screen and (min-width: 1023) and (min-width: 1800) {
   .aboutme {
     line-height: 110px;
     margin-top: 5rem;
   }
 }
 
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768) and (min-width: 1023) {
   .aboutme {
     padding: 30px 30px 0px;
     height: 68vh;
@@ -121,7 +124,7 @@
 
 }
 
-@media screen and (min-width: 0px) {
+@media screen and (min-width: 0px) and (min-width: 768) {
   .aboutme {
     padding: 15px 60px 0px;
     margin: 0;

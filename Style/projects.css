@@ -41,7 +41,7 @@
 .projectsSection__text__buttons {
   display: flex;
   justify-content: space-around;
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 
 .projectsSection__text__type__encriptador {
@@ -111,7 +111,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px)  {
 .projectsSection__text__encriptador {
   padding: 5px;
 }
