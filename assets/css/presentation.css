@@ -50,7 +50,7 @@
 .presentation__photo {
   width: 400px;
   height: 530px;
-  background: url(../images/Photo.png) no-repeat center / cover;
+  background: url(../assets/images/Photo.png) no-repeat center / cover;
   border-radius: 100%;
   filter: drop-shadow(16px 16px 20px black);
   transition: 1s all ease-in-out;
