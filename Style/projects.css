@@ -30,10 +30,8 @@
 }
 
 .projectsSection__text__encriptador {
-  margin-left: 8px;
+  margin-left: 5px;
   background-color: #e6f4f1;
-  width: 40vw;
-  height: 99.89%;
   padding: 40px;
   box-sizing: border-box;
 }
