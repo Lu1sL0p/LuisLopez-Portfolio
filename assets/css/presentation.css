@@ -32,6 +32,7 @@
 .presentation__text__social {
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 32px;
 }
 
 .presentation__text__social__icon {
@@ -48,9 +49,8 @@
 }
 
 .presentation__photo {
-  width: 400px;
-  height: 530px;
-  background: url(../images/Photo.png) no-repeat center / cover;
+  width: 30vw;
+  height: 36vw;
   border-radius: 100%;
   filter: drop-shadow(16px 16px 20px black);
   transition: 1s all ease-in-out;
@@ -59,3 +59,51 @@
 .presentation__photo:hover{
     filter: drop-shadow(0px 0px 9px #a0a0a0);
 } 
+
+
+@media screen and (max-width: 1180px) {
+  .presentation__photo{
+    height: 38vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .presentation {
+    padding: 40px 32px;
+  }
+  .presentation__text__welcome{
+    margin-top: 0px;
+    font-size: 1rem;
+  }
+  .presentation__text__statement{
+    font-size: 1.8rem;
+  }
+  .presentation__text__social__icon{
+    width: 30px;
+    height: 30px;
+  }
+  .cv {
+    width: 40px;
+    height: 40px;
+  }
+  .presentation__photo{
+    height: 45vw;
+    width: 35vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .presentation{
+    padding: 16px 16px 32px;
+    flex-direction: column;
+    height: auto;
+  }
+  .presentation__text{
+    width: 100%;
+    margin: 0;
+  }
+  .presentation__photo {
+    height: 48vw;
+    width: 36vw;
+  }
+}

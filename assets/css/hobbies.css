@@ -52,3 +52,21 @@
     transform: translateX(calc(-127px * 3));
   }
 }
+
+@media screen and (max-width: 1280px){
+  .hobbies {
+    padding: 26px 0 42px; 
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hobbies {
+    padding: 32px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hobbies{
+    padding: 16px 0;
+  }
+}

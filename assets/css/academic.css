@@ -19,6 +19,7 @@
 }
 
 .academic__formation {
+  padding: 10rem;
   border: 5px solid #600000f0;
   border-radius: 20px;
   box-shadow: 0px 0px 33px 20px #600000aa inset;
@@ -49,7 +50,7 @@
   gap: 5px;
 }
 
-.academic__formation__text--active{
+.academic__formation__text--active {
   font-size: 1rem;
   font-weight: bold;
 }
@@ -58,3 +59,48 @@ academic__formation__text--unactive {
   font-size: 1rem;
 }
 
+@media screen and (max-width: 1280px) {
+  .academic {
+    padding: 52px 64px;
+  }
+  .academic__formation__image{
+    height: 7rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .academic {
+    padding: 32px;
+  }
+  .academic__formation__image {
+    height: 6rem;
+  }
+  .academic__formation__text--active,
+  .academic__formation__text--unactive {
+    font-size: 0.8rem;
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .academic--container {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .academic__formation{
+    width: 74vw;
+  }
+  .academic__formation__image{
+    height: 7.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .academic__formation{
+    width: 65vw;
+  }
+  .academic__formation__image{
+    height: 6rem;
+  }
+}
