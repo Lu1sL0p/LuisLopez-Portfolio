@@ -1,6 +1,9 @@
-let bar = document.querySelector('#check');
-let nav = document.querySelector('.navegatinavegation__menu__optionson');
+const checkBtn = document.querySelector("[data-type-check]");
+const menu = document.querySelector("[data-type-menu]");
 
-bar.addEventListener('click', function(){
-    nav.
+const showMenu = () =>{
+    menu.classList.toggle("showMenu");
+    checkBtn.classList.toggle("changeBackground");
+}
 
+checkBtn.addEventListener('click', showMenu);

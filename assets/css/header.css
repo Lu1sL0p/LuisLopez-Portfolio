@@ -37,11 +37,15 @@
 }
 
 .navegation__menu__options--greet:hover {
-    background-color: #420000;
-    color: #f1ecece2;
+  background-color: #420000;
+  color: #f1ecece2;
 }
 
-@media screen and (max-width: 1280px){
+.header__menu__responsive {
+  display: none;
+}
+
+@media screen and (max-width: 1280px) {
   .header {
     padding: 15px 64px;
   }
@@ -57,28 +61,45 @@
   .navegation {
     font-size: 1em;
   }
-  .navegation__menu__options{
+  .navegation__menu__options {
     margin-left: 20px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .header{
+  .header {
     padding: 16px;
   }
-  .navegation__menu{
+  .navegation__menu {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 30px;
     position: absolute;
-    width: 99.5%;
-    left: 0%;
+    width: 12rem;
+    height: 271px;
+    left: -70%;
     top: 90px;
-    background: #0b0c1099;
-    border: 1px solid #ecf0f1aa;
-    border-radius: 10px;
+    background: #000000;
+    border: 1.5px solid #ecf0f1aa;
+    border-radius: 15px;
     z-index: 1;
-    display: none;
+    transition: all 0.2s ease-in-out;
+  }
+  .showMenu {
+    left: -3%;
+  }
+  .header__menu__responsive {
+    display: block;
+    background: url(../images/icons/Menu-desactive.svg) no-repeat center/ cover;
+    height: 50px;
+    width: 50px;
+    transition: all 0.15s ease-in-out;
+  }
+  .changeBackground {
+    background: url(../images/icons/Menu-active.svg) no-repeat center/ cover;
+    height: 35px;
+    width: 35px;
+    transform: translateX(-8px);
   }
 }

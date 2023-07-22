@@ -12,8 +12,9 @@
   --display: "Noto Serif Display", serif;
 }
 
-body {
+html {
   font-family: var(--font);
+  scroll-behavior: smooth;
 }
 
 a {
@@ -31,13 +32,12 @@ a:hover {
   font: var(--font);
 }
 
-  
-.bases__text{
+.bases__text {
   color: var(--white);
   font-size: 1.25rem;
 }
 
-.bases__text--active{
+.bases__text--active {
   color: var(--white);
   font-weight: bold;
 }
@@ -47,32 +47,32 @@ a:hover {
   font-size: 1rem;
 }
 
-.bases__title2{
+.bases__title2 {
   color: var(--white);
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 32px
+  margin-bottom: 32px;
 }
 
 @media screen and (max-width: 1024px) {
   .bases__text {
     font-size: 1.1rem;
   }
-  .bases__title2{
+  .bases__title2 {
     font-size: 1.8rem;
   }
-  .bases__text--normal{
+  .bases__text--normal {
     font-size: 0.95rem;
     text-align: justify;
   }
-  .bases__text--active{
+  .bases__text--active {
     font-size: 0.95rem;
     text-align: justify;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .bases__title2{
+  .bases__title2 {
     margin-bottom: 16px;
     text-align: center;
   }
