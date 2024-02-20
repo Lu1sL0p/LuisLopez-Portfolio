@@ -95,6 +95,16 @@
   background-color: var(--wine);
 }
 
+.ux__btn {
+  width: 8rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .ux__btn {
+    width: 12rem;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .contact {
     padding: 52px 64px;
@@ -117,7 +127,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .contact{
+  .contact {
     padding: 16px;
   }
   .contact__logo {
@@ -126,8 +136,11 @@
   .contact__form {
     width: 100%;
   }
-  .contact__form__button{
+  .contact__form__button {
     height: 5vh;
     width: 25vw;
+  }
+  .ux__btn {
+    width: 10rem;
   }
 }
